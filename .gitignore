@@ -1,0 +1,16 @@
+# Ignore Everything
+*
+
+# Unignore directories so we can recurse into them
+!*/
+
+# Unignore gitignore
+!.gitignore
+
+# Unignore the files we want
+!*.md
+!*.txt
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
