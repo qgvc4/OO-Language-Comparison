@@ -9,6 +9,7 @@
 
 
 ## Swift
+### Build-in Data Types
 * **Int/UInt** − This is used for integer numbers. More specifically, you can use Int32, Int64 to define 32 or 64 bit signed integer, whereas UInt32 or UInt64 to define 32 or 64 bit unsigned integer variables.
 
 * **Float** − This is used to represent a 32-bit floating-point number and numbers with smaller decimal points.
@@ -26,3 +27,8 @@
 * **Tuples** − This is used to group multiple values in single Compound Value.
 
 Reference: [TutorialPoint](https://www.tutorialspoint.com/swift/swift_data_types.htm)
+
+### Value and Reference Types
+* `Struct`, `enum`, and tuple are value types
+    * `Struct` can be used to created own value types
+* `Class` is reference type
