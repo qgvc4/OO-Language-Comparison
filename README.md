@@ -13,27 +13,27 @@
 
 ### Comparison Criteria
 
-* [Language purpose/genesis](src/purpose.md)
+* [Language purpose/genesis](src/Purpose.md)
   * Why was the language created?
   * What problems was the language trying to address?
   * Is the language a reaction to a previous language or a replacement for another language?
-* [Unique features of the language](src/unique.md)
+* [Unique features of the language](src/Unique.md)
   * Does the language have any particularly unique features?
-* [Name spaces](src/namespaces.md)
+* [Name spaces](src/Namespaces.md)
   * How are name spaces implemented?
   * How are name spaces used?
-* [Types](src/typesClassesProperties.md)
+* [Types](src/TypesClassesProperties.md)
     * What types does the language support?
     * Are both reference and value types supported?
     * Can new value types be created?
-* [Classes](src/typesClassesProperties.md)
+* [Classes](src/TypesClassesProperties.md)
   * Defining
   * Creating new instances
   * Constructing/initializing
   * Destructing/de-initializing
-* [Instance reference name in data type (class)](src/typesClassesProperties.md)
+* [Instance reference name in data type (class)](src/TypesClassesProperties.md)
   * this?  self?
-* [Properties](src/typesClassesProperties.md)
+* [Properties](src/TypesClassesProperties.md)
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
@@ -56,16 +56,16 @@
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
 * [Errors and exception handling](src/ErrorsExceptionHandling.md)
-* [Lambda expressions, closures, or functions as types](src/q15.md)
-* [Implementation of listeners and event handlers](src/q16.md)
-* [Singleton](src/q17.md)
+* [Lambda expressions, closures, or functions as types](src/Lambda.md)
+* [Implementation of listeners and event handlers](src/Implementation.md)
+* [Singleton](src/Singleton.md)
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
-* [Procedural programming](src/q18.md)
+* [Procedural programming](src/Procedural.md)
   * Does the language support procedural programming?
-* [Functional programming](src/q19.md)
+* [Functional programming](src/Functional.md)
   * Does the language support functional programming?
-* [Multithreading](src/q20.md)
+* [Multithreading](src/Multithreading.md)
   * Threads or thread-like abilities
   * How is multitasking accomplished?
