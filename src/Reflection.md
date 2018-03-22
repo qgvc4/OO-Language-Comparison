@@ -2,8 +2,8 @@
 
 
 # Reflection
-    * What reflection abilities are supported?
-    * How is reflection used?
+* What reflection abilities are supported?
+* How is reflection used?
 
 ## C#
 

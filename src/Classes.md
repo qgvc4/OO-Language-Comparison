@@ -1,10 +1,10 @@
 [README.md](../README.md)
 
 # Classes
-    * Defining
-    * Creating new instances
-    * Constructing/initializing
-    * Destructing/de-initializing
+* Defining
+* Creating new instances
+* Constructing/initializing
+* Destructing/de-initializing
 
 
 ## C#
