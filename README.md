@@ -22,18 +22,18 @@
 * [Name spaces](src/Namespaces.md)
   * How are name spaces implemented?
   * How are name spaces used?
-* [Types](src/TypesClassesProperties.md)
+* [Types](src/Types.md)
     * What types does the language support?
     * Are both reference and value types supported?
     * Can new value types be created?
-* [Classes](src/TypesClassesProperties.md)
+* [Classes](src/Classes.md)
   * Defining
   * Creating new instances
   * Constructing/initializing
   * Destructing/de-initializing
-* [Instance reference name in data type (class)](src/TypesClassesProperties.md)
+* [Instance reference name in data type (class)](src/Inatance.md)
   * this?  self?
-* [Properties](src/TypesClassesProperties.md)
+* [Properties](src/Properties.md)
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
