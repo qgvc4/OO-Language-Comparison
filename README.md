@@ -1,6 +1,10 @@
-# OO-Language-Comparison
-## Language `C#` VS `Swift`
-## Team member
+# Object Oriented Design Final Project
+
+##OO-Language-Comparison
+
+ Language `C#` VS `Swift`
+
+### Team member
 * Qiwen Guo
 * Roger Kiew
 * Chunbin Lin
