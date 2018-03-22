@@ -41,17 +41,17 @@
 * [Reflection](src/Reflection/Reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
-* [Memory management](src/MemoryManagement/Memory%20management.md)
+* [Memory management](src/MemoryManagement/MemoryManagement.md)
   * How is it handled?
   * How does it work?
   * Garbage collection?
   * Automatic reference counting?
-* [Comparisons of references and values](src/ReferenceAndValueComparison/Comparisons%20of%20references%20and%20values.md)
+* [Comparisons of references and values](src/ComparisonsOfReferencesAndValues.md)
   * How are values compared? (i.e. comparing two strings)
-* [Null/nil references](src/Nullnil/Null%20nill%20reference.md)
+* [Null/nil references](src/NullNil.md)
   * Which does the language use? (null/nil/etc)
   * Does the language have features for handling null/nil references?
-* [Errors and exception handling](src/ErrorsExceptionHandling/Errors%20and%20exception%20handling.md)
+* [Errors and exception handling](src/ErrorsExceptionHandling.md)
 * [Lambda expressions, closures, or functions as types](src/q15.md)
 * [Implementation of listeners and event handlers](src/q16.md)
 * [Singleton](src/q17.md)
