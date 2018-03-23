@@ -18,8 +18,6 @@
 
 [embedmd]:# (../code/Swift/propertiesDemo.playground/Contents.swift Swift)
 ```Swift
-//: Playground - noun: a place where people can play
-
 import UIKit
 
 class Square {
