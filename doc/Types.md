@@ -20,7 +20,17 @@
 * **ulong**	- 64-bit unsigned integer type
 * **ushort** - 16-bit unsigned integer type
 
-Reference: [TutorialPoint](https://www.tutorialspoint.com/csharp/csharp_data_types.htm)
+Reference: [TutorialPoint](https://www.tutorialspoint.com/csharp/csharp_data_types.htm)   
+
+Both reference and value types are supported in C#.  There are two ways to allocating space in memory. One is value type and another is Reference type. When you create int, char or float type variable, it creates value type memory allocation whereas when you create object of class, it creates reference type memory allocation.
+* **Value Type:** A value type variable directly contains data in the memory.
+* **Reference Type:** A Reference type variable contains memory address of value.
+
+Reference: [Complete C# Tutorial](https://www.completecsharptutorial.com/basic/valuetype-parameter)
+
+Yes, you use the struct, class, interface, and enum constructs to create your own custom types. The .NET class library itself is a collection of custom types provided by Microsoft that you can use in your own applications. By default, the most frequently used types in the class library are available in any C# program. Others become available only when you explicitly add a project reference to the assembly in which they are defined. 
+
+Reference: [C# Programming Guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/)
 
 ## Swift
 ### Build-in Data Types
