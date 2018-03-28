@@ -9,3 +9,11 @@
 
 
 ## Swift
+**Mirror**, a struct in Swift for reflection
+- Create a Mirror
+```Swift
+public init(reflecting subject: Any)
+```
+```Swift
+let aMirror = Mirror(reflecting: someClassName) 
+```
