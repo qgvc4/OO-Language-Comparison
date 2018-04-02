@@ -6,6 +6,14 @@
 
 ## C#
 
+Functions are first-class citizens in C#, which means they can be used as input or output for other functions.
+
+```cs
+Func<int, bool> isMod2 = x => x % 2 == 0;
+var list = Enumerable.Range(1, 10);
+var evenNumbers = list.Where(isMod2);
+```
+Reference: [Introduction to functional programming with C#](https://dev.to/naveen/introduction-to-functional-programming-with-c)
 
 ## Swift
 
