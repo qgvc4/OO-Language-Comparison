@@ -31,7 +31,7 @@
   * Creating new instances
   * Constructing/initializing
   * Destructing/de-initializing
-* [Instance reference name in data type (class)](doc/Inatance.md)
+* [Instance reference name in data type (class)](doc/Instance.md)
   * this?  self?
 * [Properties](doc/Properties.md)
   * Getters and setters...write your own or built in?

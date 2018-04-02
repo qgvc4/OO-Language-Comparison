@@ -8,3 +8,4 @@
 
 
 ## Swift
+Swift use `self` keyword to refer instance properties and methods
