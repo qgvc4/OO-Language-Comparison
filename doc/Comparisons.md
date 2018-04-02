@@ -4,6 +4,18 @@
 * How are values compared?(i.e. comparing two strings)
 
 ## C#
+C# supports all standard C comparison operators:
+
+* Equal to (a == b)
+* Not equal to (a != b)
+* Greater than (a > b)
+* Less than (a < b)
+* Greater than or equal to (a >= b)
+* Less than or equal to (a <= b)
+
+For value comparison, we can use all the above operators. The string class overloads the "==" operator to perform an equality comparison. 
+
+Object.ReferenceEquals() method is used to compare the reference of objects. 
 
 
 ## Swift
