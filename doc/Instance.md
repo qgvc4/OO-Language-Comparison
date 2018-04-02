@@ -5,7 +5,7 @@
 
 
 ## C#
-
+The `this` keyword refers to the current instance of the class and is also used as a modifier of the first parameter of an extension method.
 
 ## Swift
-Swift use `self` keyword to refer instance properties and methods
+Swift uses `self` keyword to refer instance properties and methods
