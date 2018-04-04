@@ -15,7 +15,7 @@ If the object is not beed used in a certain time, or the garbage collector recon
 ### Garbage Collector
 .NET's garbage collector manages the allocation and release of memory for your application. Each time you create a new object, the common language runtime allocates memory for the object from the managed heap. As long as address space is available in the managed heap, the runtime continues to allocate space for new objects
 
-
+Reference: [Memory Management and Garbage Collection in .NET](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/memory-management-and-gc)
 
 ## Swift
 In Swift, we use Automatic Reference Counting (ARC) to track and manage your app’s memory usage. In most cases, this means that memory management “just works” in Swift, and you do not need to think about memory management yourself. ARC automatically frees up the memory used by class instances when those instances are no longer needed.
