@@ -7,6 +7,13 @@
 * Automatic reference counting?
 
 ## C#
+In C#, majority of the objects that the app creates, you can rely on .NET's garbage collector to handle memory management. However, when you create objects that include unmanaged resources, you must explicitly release those resources when you finish using them in your app.
+
+If the object is not beed used in a certain time, or the garbage collector reconized it as not longer in use, it will be consider for destruction.
+
+
+### Garbage Collector
+.NET's garbage collector manages the allocation and release of memory for your application. Each time you create a new object, the common language runtime allocates memory for the object from the managed heap. As long as address space is available in the managed heap, the runtime continues to allocate space for new objects
 
 
 
