@@ -6,7 +6,7 @@
 
 ## C#
 
-
+C# is consider as one of the Procedural languages. It does support procedural programming. All of the code can be written in procedural. 
 
 ## Swift
 
