@@ -5,6 +5,19 @@
 
 
 ## C#
+A lambda expression is an anonymous function that you can use to create delegates or expression tree types. By using lambda expressions, you can write local functions that can be passed as arguments or returned as the value of function calls. Lambda expressions are particularly helpful for writing LINQ query expressions.
+
+A C# example is given below.
+```CS
+delegate int del(int i);  
+static void Main(string[] args)  {  
+    del myDelegate = x => x * x;  
+    int j = myDelegate(5); //j = 25  
+}  
+```
+
+
+A closure in C# takes the form of an in-line delegate/anonymous method. A closure is attached to its parent method meaning that variables defined in parent's method body can be referenced from within the anonymous method. There is a great Blog Post here about it.
 
 
 ## Swift

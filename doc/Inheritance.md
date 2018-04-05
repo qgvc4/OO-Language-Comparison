@@ -4,7 +4,60 @@
 
 
 ## C#
+Base Class
+```CS
+   class Shape {
+      public void setWidth(int w) {
+         width = w;
+      }
+      public void setHeight(int h) {
+         height = h;
+      }
+      protected int width;
+      protected int height;
+   }
+```
 
+Derived class
+```CS
+   class Rectangle: Shape {
+      public int getArea() { 
+         return (width * height); 
+      }
+   }
+```
+
+Method override
+```CS
+class BC{
+    public virtual void Display(){                  System.Console.WriteLine("BC::Display");
+     }
+}
+
+class DC : BC{
+  public override void Display(){
+         System.Console.WriteLine("DC::Display");
+    }
+}
+
+```
+
+Property override
+```CS
+abstract class BC{
+  public virtual int x
+  {
+    get { 
+        throw new NotImplementedException(); 
+        }
+  }
+}
+
+abstract class DC : BC{}
+  public override int x { get { ... } }
+}
+
+```
 
 ## Swift
 Base Class
