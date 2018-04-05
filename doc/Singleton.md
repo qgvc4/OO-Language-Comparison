@@ -7,7 +7,57 @@
 * Can the singleton instance be lazily instantiated?
 
 ## C#
+The singleton pattern is one of the best-known patterns in software engineering. Essentially, a singleton is a class which only allows a single instance of itself to be created, and usually gives simple access to that instance.
+Following is an example which uses singleton to implement a simple thread-safety program.
+```cs
+public sealed class Singleton
+{
+    private static Singleton instance = null;
+    private static readonly object padlock = new object();
 
+    Singleton()
+    {
+    }
+
+    public static Singleton Instance
+    {
+        get
+        {
+            lock (padlock)
+            {
+                if (instance == null)
+                {
+                    instance = new Singleton();
+                }
+                return instance;
+            }
+        }
+    }
+}
+```
+Following is an example with fully lazy instantiation.
+```cs
+public sealed class Singleton
+{
+    private Singleton()
+    {
+    }
+
+    public static Singleton Instance { get { return Nested.instance; } }
+        
+    private class Nested
+    {
+        // Explicit static constructor to tell C# compiler
+        // not to mark type as beforefieldinit
+        static Nested()
+        {
+        }
+
+        internal static readonly Singleton instance = new Singleton();
+    }
+}
+```
+Reference: [C# in Depth](http://csharpindepth.com/Articles/General/Singleton.aspx#unsafe)
 
 ## Swift
 
